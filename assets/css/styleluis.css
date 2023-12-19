@@ -1,7 +1,36 @@
+*{
+    border: 1px solid black;
+}
+
+
 body{
     padding:0 ;
     border: 0;
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: #808080;
+}
+h1{
+    background-color: #4DBAFF;
+}
+.padre{
+    background-color: #4DFFBC;
+}
+.espacio{
+    height: 1cm;
+}
+p{
+    text-align: center;
+}
+#foto_perfil{
+    width: 100%;
+    height: 100%;
+}
+.primera_seccion{
+    width: 25%;
+    background-color: #E65C5C;
+}
+.datos_personales{
+    background-color: #4DBAFF;
 }
