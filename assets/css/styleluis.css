@@ -1,36 +1,51 @@
-*{
-    border: 1px solid black;
-}
 
-
-body{
-    padding:0 ;
-    border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Roboto+Mono&display=swap');
+header{
+    
     margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #808080;
+    padding: 0;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    
+}
+*{
+    font-family: 'Kalnia', serif;
+    
+}
+body{
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: snow;
 }
 h1{
     background-color: #4DBAFF;
 }
+h3{
+    background-color: #4DBAFF;
+}
 .padre{
-    background-color: #4DFFBC;
+    background-color: #699EBF;
+    display: flex;
+
 }
 .espacio{
     height: 1cm;
-}
-p{
-    text-align: center;
 }
 #foto_perfil{
     width: 100%;
     height: 100%;
 }
 .primera_seccion{
-    width: 25%;
-    background-color: #E65C5C;
+    width: 50%;
+    border: 5px solid black;
+    display: flex;
 }
 .datos_personales{
     background-color: #4DBAFF;
+    width: 75%;
+    font-size: 22px;
 }
+
