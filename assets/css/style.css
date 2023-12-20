@@ -205,6 +205,7 @@ p {
 	background-image: url(/assets/img/hero-bg1.png);
 	background-size: cover;
 	background-position: top center;
+	opacity: 0.5;
 	position: relative;
 	z-index: 1;
 }
