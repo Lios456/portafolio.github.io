@@ -201,7 +201,6 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-
 #hero {
 	background-image: url(/assets/img/hero-bg1.png);
 	background-size: cover;
