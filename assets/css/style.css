@@ -201,9 +201,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* FIN ENCABEZADO */
 
-/* SECCION DE HEROE GC.Bran */
 #hero {
 	background-image: url(/assets/img/hero-bg1.png);
 	background-size: cover;
