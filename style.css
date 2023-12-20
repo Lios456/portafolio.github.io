@@ -205,7 +205,7 @@ p {
 
 /* SECCION DE HEROE GC.Bran */
 #hero {
-	background-image: url(./img/hero-bg1.jpg);
+	background-image: url(./assets/img/hero-bg1.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
