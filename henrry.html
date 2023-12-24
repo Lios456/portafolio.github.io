@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a mi biografía</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3498db; /* Fondo azul */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #biografia-container {
+            background-color: #ecf0f1; /* Cuadro gris */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="biografia-container">
+        <h1>Bienvenido a mi biografía</h1>
+        <p>Algo sobre mí</p>
+        <img src="assets/img/foto.png" style="height: 2cm;" alt="Tu Foto">
+        <p>Mi nombre es Henrry. Me gusta el fútbol y entrenar en el gimnasio.</p>
+
+        <p>Información personal:</p>
+        <ul>
+            <li>Nombre: Henrry Fernando Barrionuevo Nuñez</li>
+            <li>Edad: 20 años</li>
+            <li>Lugar de nacimiento: Quito</li>
+            <li>Lugar de residencia: Salcedo</li>
+            <li>Universidad: Universidad Técnica de Cotopaxi</li>
+            <li>Cumpleaños: 1 de marzo</li>
+            <li>Familia: La familia de mi papá es de Tena y la familia de mi mamá es de Salcedo</li>
+        </ul>
+        
+        <a href="index.html" id="miBoton">Regresar</a>
+
+        <script>
+            document.getElementById('miBoton').addEventListener('click', function() {
+                alert('¡Hola, Henrry Fernando Barrionuevo Nuñez! Haz clic en el botón para regresar.');
+            });
+        </script>
+    </div>
+
+</body>
+</html>
