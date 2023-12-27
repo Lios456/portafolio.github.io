@@ -1,0 +1,125 @@
+
+* {
+    font-family: 'Trebuchet MS';
+}
+
+.contenedor {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* Primera Seccion*/
+
+#header {
+    background-color: rgba(30 30 30);
+}
+
+#header h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+/* Segunda Seccion*/
+
+#seccion-m {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(30 30 30);
+}
+
+#seccion-m #first-title {
+    margin-left: 300px;
+    padding: 75px 150px 0px;
+    color: whitesmoke;
+}
+
+#seccion-m #second-title {
+    margin-left: 300px;
+    padding: 0px 150px 0px;
+    color: whitesmoke;
+}
+
+#seccion-m .letter-color {
+    color: #ff4800;
+}
+
+#seccion-m img {
+    float: left;
+    margin-left: 50px;
+    padding: 75px 0px 0px 100px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#seccion-m p {  
+    color: whitesmoke;
+    margin-left: 300px;
+    height: 25px;
+    padding: 0px 150px 105px 150px;
+}
+
+.contenedor .columnas {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .columnas .columna1 {
+    padding: 10px 30px 10px 30px;
+    margin: 0 25px 0 50px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ff4800;
+}
+
+.contenedor .columnas .columna1 p {
+    width: 500px;
+    text-align: justify;
+}
+
+.contenedor .columnas .columna2 {
+    padding: 10px 30px 10px 30px;
+    margin: 0 50px 0 25px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ff4800;
+}
+
+.contenedor .columnas .columna2 p {
+    width: 500px;
+    text-align: justify;
+}
+
+/* Diseño del boton*/
+
+button {
+    margin: 50px 600px 0 600px;
+    border: 0;
+    background-color: #ff4800;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button a {
+    background-color: #111;
+    color: whitesmoke;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover a {
+    background: none;
+}
