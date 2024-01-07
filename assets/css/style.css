@@ -67,6 +67,28 @@ p {
 	color: white;
 	background-color: crimson;
 }
+/*Clon CTA para boton Regresar*/
+.cta_2 {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	/*margin-top: 30px;*/
+	/*Cambio*/
+	margin: 50px 100% 0 100%;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+/*Clon CTA para boton Regresar*/
+.cta_2:hover {
+	color: white;
+	background-color: crimson;
+}
+
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -374,7 +396,6 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-
 
 }
 #services .services {
