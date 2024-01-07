@@ -401,6 +401,7 @@ p {
 #helloWord{
 	background-size: cover;
 	background-image: url(https://i.pinimg.com/736x/62/06/9d/62069dcedce8c37e763b7f4119911017.jpg);
+	opacity: 30%;
 }
 #services .services {
 	flex-direction: column;
