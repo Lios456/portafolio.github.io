@@ -398,6 +398,10 @@ p {
 	}
 
 }
+#helloWord{
+	background-image: url(https://img.freepik.com/fotos-premium/fondo-borroso-bokeh-colorido-luces-desenfocadas-borrosas_23-2148055621.jpg);
+	background-size: cover;
+}
 #services .services {
 	flex-direction: column;
 	text-align: center;
